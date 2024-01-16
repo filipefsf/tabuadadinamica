@@ -1,0 +1,28 @@
+body{
+    background: rgba(45, 45, 219, 0.81);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;                /*Deixa as bordas arredondadas*/
+    padding: 15px;                      /*Cria um espaço nessa section*/
+    width: 500px;                       /*Define largura fixa de 500px*/
+    margin: auto;                       /*Centraliza a section na tela*/
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.619);    /*Define 5px de deslocamento lateral e vertical e 10px de espalhamento*/
+}
+
+select{
+    width: 300px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
